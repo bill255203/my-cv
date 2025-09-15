@@ -5,7 +5,7 @@ def resume_view(request):
         "name": "Pin-Ray Liao",
         "title": "Backend Engineer",
         "contact": {
-            "email": "pinray.liao@nyu.edu",
+            "email": "pl2999@nyu.edu",
             "phone": "(+1) 347-278-9212",
             "location": "Brooklyn, NY"
         },
