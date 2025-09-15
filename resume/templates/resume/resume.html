@@ -11,9 +11,9 @@
       <header>
         <h1>{{ cv.name }}</h1>
         <h2>{{ cv.title }}</h2>
-        <div class="contact">
+        <div class="contact me">
           <span>{{ cv.contact.location }}</span> ·
-          <a href="mailto:{{ cv.contact.email }}">{{ cv.contact.email }}</a> ·
+          <span>{{ cv.contact.email }}</span> ·
           <span>{{ cv.contact.phone }}</span>
         </div>
       </header>
@@ -42,8 +42,8 @@
         <div class="item">
           <div>
             <h3>{{ job.role }}</h3>
-            – {{ job.company }}
-            <span style="float: right">{{ job.period }}</span>
+            <h4>{{ job.company }}</h4>
+            <h4>{{ job.period }}</h4>
           </div>
           <ul>
             {% for b in job.bullets %}
